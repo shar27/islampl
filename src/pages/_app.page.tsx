@@ -1,6 +1,7 @@
 import { Urbanist } from '@next/font/google';
 import { appWithTranslation } from 'next-i18next';
 import type { AppProps } from 'next/app';
+//import { Analytics } from '@vercel/analytics/dist/react';
 import './utils/globals.css';
 
 import { Layout } from '@src/components/templates/layout';

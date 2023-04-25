@@ -15,6 +15,11 @@ export const config: CodegenConfig = {
       },
     },
   ],
+  // hooks: {
+  //   afterOneFileWrite: [
+  //     'sed -i -e"s|graphql-request/dist/types\.dom|graphql-request/src/types.dom|g"'
+  //   ]
+  // },
   generates: {
     'src/lib/__generated/graphql.schema.json': {
       plugins: ['introspection'],
